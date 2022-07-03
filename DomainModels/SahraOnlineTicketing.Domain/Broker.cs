@@ -8,6 +8,6 @@ namespace SahraOnlineTicketing.Domain
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
         public string LogoUrl { get; set; }
-        public ICollection<Department> Departments { get; set; }    
+        public virtual ICollection<Department> Departments { get; set; }    
     }
 }

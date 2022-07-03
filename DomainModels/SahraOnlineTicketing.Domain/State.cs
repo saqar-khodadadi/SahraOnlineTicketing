@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SahraOnlineTicketing.Domain
 {
-    public class UserRole:BaseEntity
+    public class State: BaseEntity
     {
         public string Title { get; set; }
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<Ticket> Tickets { get; set; }
     }
 }

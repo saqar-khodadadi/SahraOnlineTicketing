@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Api", "SahraOnlineTicketing.Api\SahraOnlineTicketing.Api.csproj", "{8060B893-F0CB-47A7-9073-D0A342735928}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EAD21757-9E29-4DBB-974F-61ABDA27D6EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{DF899774-F0E4-43BB-8C54-E8E09308FB19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{DB6D8D14-AA75-4E2B-9FC9-D089616B623E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Domain", "DomainModels\SahraOnlineTicketing.Domain\SahraOnlineTicketing.Domain.csproj", "{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SahraOnlineTicketing.Domain", "DomainModels\SahraOnlineTicketing.Domain\SahraOnlineTicketing.Domain.csproj", "{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Common", "DomainModels\SahraOnlineTicketing.Common\SahraOnlineTicketing.Common.csproj", "{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SahraOnlineTicketing.Common", "DomainModels\SahraOnlineTicketing.Common\SahraOnlineTicketing.Common.csproj", "{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Services", "Application\SahraOnlineTicketing.Services\SahraOnlineTicketing.Services.csproj", "{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SahraOnlineTicketing.Services", "Application\SahraOnlineTicketing.Services\SahraOnlineTicketing.Services.csproj", "{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.DataAccess", "Infrastucture\SahraOnlineTicketing.DataAccess\SahraOnlineTicketing.DataAccess.csproj", "{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SahraOnlineTicketing.DataAccess", "Infrastucture\SahraOnlineTicketing.DataAccess\SahraOnlineTicketing.DataAccess.csproj", "{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Api", "SahraOnlineTicketing.Api\SahraOnlineTicketing.Api.csproj", "{86B81DF3-C5DB-4BBC-A695-3EA02E11AF15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8060B893-F0CB-47A7-9073-D0A342735928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8060B893-F0CB-47A7-9073-D0A342735928}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8060B893-F0CB-47A7-9073-D0A342735928}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8060B893-F0CB-47A7-9073-D0A342735928}.Release|Any CPU.Build.0 = Release|Any CPU
 		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B81DF3-C5DB-4BBC-A695-3EA02E11AF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B81DF3-C5DB-4BBC-A695-3EA02E11AF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B81DF3-C5DB-4BBC-A695-3EA02E11AF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B81DF3-C5DB-4BBC-A695-3EA02E11AF15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
