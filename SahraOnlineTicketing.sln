@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Api", "SahraOnlineTicketing.Api\SahraOnlineTicketing.Api.csproj", "{8060B893-F0CB-47A7-9073-D0A342735928}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EAD21757-9E29-4DBB-974F-61ABDA27D6EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{DF899774-F0E4-43BB-8C54-E8E09308FB19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{DB6D8D14-AA75-4E2B-9FC9-D089616B623E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Domain", "DomainModels\SahraOnlineTicketing.Domain\SahraOnlineTicketing.Domain.csproj", "{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Common", "DomainModels\SahraOnlineTicketing.Common\SahraOnlineTicketing.Common.csproj", "{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.Services", "Application\SahraOnlineTicketing.Services\SahraOnlineTicketing.Services.csproj", "{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahraOnlineTicketing.DataAccess", "Infrastucture\SahraOnlineTicketing.DataAccess\SahraOnlineTicketing.DataAccess.csproj", "{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8060B893-F0CB-47A7-9073-D0A342735928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8060B893-F0CB-47A7-9073-D0A342735928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8060B893-F0CB-47A7-9073-D0A342735928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8060B893-F0CB-47A7-9073-D0A342735928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{204D7AC2-0DAF-4D57-B157-5074C3B47DCC} = {DB6D8D14-AA75-4E2B-9FC9-D089616B623E}
+		{DDE37E6A-FB77-4BA0-BB9B-2F97D51A6F35} = {DB6D8D14-AA75-4E2B-9FC9-D089616B623E}
+		{DBCD08F7-A02A-4988-A5C6-97E43B0FA6FB} = {EAD21757-9E29-4DBB-974F-61ABDA27D6EF}
+		{7713BAA3-8DE4-4C6B-89C1-F20D3331DFCE} = {DF899774-F0E4-43BB-8C54-E8E09308FB19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95966357-18F7-48AA-88E7-D4E1DB1989FE}
+	EndGlobalSection
+EndGlobal
