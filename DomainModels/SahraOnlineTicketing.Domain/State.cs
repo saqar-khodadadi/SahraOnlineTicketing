@@ -9,7 +9,7 @@ namespace SahraOnlineTicketing.Domain
 {
     public class State: BaseEntity
     {
-        public string Title { get; set; }
+        public string? Title { get; set; }
         public virtual ICollection<Ticket> Tickets { get; set; }
     }
 }
