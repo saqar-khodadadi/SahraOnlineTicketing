@@ -28,23 +28,15 @@ namespace SahraOnlineTicketing.DataAccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.ApplyConfiguration(new BrokerConfiguration());
-            //modelBuilder.ApplyConfiguration(new DepartmentConfiguration());
-            //modelBuilder.ApplyConfiguration(new UserConfiguration());
-            //modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new BrokerConfiguration());
+            modelBuilder.ApplyConfiguration(new DepartmentConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+
             modelBuilder.ApplyConfiguration(new TicketConfiguration());
             modelBuilder.ApplyConfiguration(new StateConfiguration());
             modelBuilder.ApplyConfiguration(new PriorityConfigoration());
             modelBuilder.ApplyConfiguration(new AttachmentConfiguration());
-
-            //modelBuilder.Entity<Broker>();
-            //modelBuilder.Entity<Department>();
-            //modelBuilder.Entity<User>();
-            //modelBuilder.Entity<Role>();
-            modelBuilder.Entity<Ticket>();
-            modelBuilder.Entity<State>();
-            modelBuilder.Entity<Priority>();
-            modelBuilder.Entity<Attachment>();
         }
     }
 }

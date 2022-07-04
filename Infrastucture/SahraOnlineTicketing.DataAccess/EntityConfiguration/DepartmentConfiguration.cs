@@ -17,7 +17,6 @@ namespace SahraOnlineTicketing.DataAccess.EntityConfiguration
             builder.Property(p => p.Title).HasMaxLength(40);
             builder.HasMany(a => a.Users).WithOne(b => b.Department);
             builder.HasOne(a => a.Broker).WithMany(b => b.Departments).HasForeignKey(c=>c.BrokerId);
-
         }
     }
 }
